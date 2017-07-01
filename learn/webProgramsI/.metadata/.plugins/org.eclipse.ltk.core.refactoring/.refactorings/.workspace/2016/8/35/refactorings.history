@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/cloud-vision-explorer" element2="/StaticWebProjectExample" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1472323657652"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/myProjectHome" element2="/webProgramsI" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1472336567295"/>
+</session>

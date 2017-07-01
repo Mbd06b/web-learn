@@ -1,0 +1,60 @@
+<!DOCTYPE hmtl>
+
+
+<html>
+<head>
+	<!-- Resume of Samuel T. Smithers
+			Author: Matthew Dowell
+			Date: 08/25/2016	
+	-->
+	<meta charset="utf-8"/>
+	<title>Resume of Samuel T. Smithers</title>
+	<!--  Embedded Style 
+		<style type="text/css">
+		body {text-align: center; width; 600px; border: 5px outset red}
+		</style>
+	-->
+	<link href="SamStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+		<header>
+				<h1>Samuel T. Smithers</h1>
+				<img src="sam.jpg" width="124" height="160" alt="Picture of Sam" />
+		</header>
+		<section>
+				<h2>Objective</h2>
+				<p>Looking for an exciting career in nuclear physics.<br />
+				I had a course in physics, and found it very exciting.<br />
+				Just the thought of peering into the <span>eerie blue light</span><br />
+				&#8230; well, you get the idea.</p>
+		</section>
+		<section>
+				<h2>Education</h2>
+				<p><b>Collin County Community College.</b><br />
+				In addition to my physics course, I took a course in history called, <br />
+				&quot;History of Strange Religions of the Western World.&quot;<br />
+				Very exciting, but the professor didn't grade me fairly, so <span>I got a C.</span></p>
+				
+				<p><b>University of North Texas.</b><br />
+				Didn't exactly pass any of my classes, but I learned a lot. </p>
+		</section>
+		<section>
+				<h3>Employment History</h3>
+				<ul>
+					<li>May 2011 - July 2011. Harold's Texaco.<br />
+						Kept the bays spotless. Left because I was only being paid $6 per hour. 
+					</li>
+					<li>December 2010 - January 2011. Wal-Mart.<br />
+						Unloaded Trucks. They fired me when I punched a customer, but she deserved it.<br />
+						This was just a Christmas job.
+					</li>
+				</ul>
+		
+		</section>
+		<footer>
+				<address>9705 Wade &#8226; Frisco TX 75035 &#8226; 972-555-1378</address>
+		</footer>
+		
+
+</body>
+</html>

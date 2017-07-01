@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chap1 Notes</title>
+<script type="text/javascript">
+	
+function welcome(){ //is run by onload= in body tag
+	alert("Warning: This site contains JavaScript!");
+} 
+	var welcome = "hi";
+	var greeting = " you";
+	var test = welcome + greeting; 
+	alert(test); 
+
+	var amount = prompt("What is the temperature?", 0);
+	var message = "";
+
+	if (temp < 60){
+		message = "Coat?";
+	}
+		else if(temp < 70){ message = "Sweater?";
+		}
+		else if(temp < 90){ message = "Great Day!";
+		}
+	else{ message = "Stay Cool!";
+	
+	}
+	
+		alert(message); 
+
+	
+	alert(dollars); 
+	var intAge = parseFloat(prompt("How old are you?"));
+	intAge = intAge +5;
+	alert("In the first 5 years, you will be " + intAge);
+	document.write("<p> In the first 5 years, you will be " + intAge);
+	intAge += 5; 
+	
+	document.write("<p> In the second 5 years, you will be " + intAge);
+
+	var name = prompt("Please enter your name", " "); 
+	var greeting = ("Hello there, " + name + "!");
+	
+	var item1 = parseFloat(prompt("Enter the cost of 1 item:"));
+	var item2 = parseFloat(prompt("Enter the cost of another item:"));
+	var TAX = .0825; //Texas Default Sales Tax Rate
+	var total = item1 + item2; 
+	
+	document.write(greeting);
+	document.write("<p> The total cost, including tax is: $ ");
+	document.write(total + (total) * TAX);
+	
+function getValue(){
+	var dog = document.getElementById("puppy");
+	document.write("Your dog is not a terrier <br />");
+	document.write("It is a "); 
+	document.write(dog.innerHTML); 
+	
+}
+
+function openWin(){
+	smallWindow = window.open("","", "width=300, height=200");
+	smallWindow.document.write("<p>Hi again, old friend!<br /> Glad to see yoou today </p>");
+}
+
+function closeWin(){
+	smallWindow.close(); 
+}
+		
+</script>
+</head>
+<body onload="welcome()">
+ <input type="button" id="myButton" value="Hi there" 
+ 		onclick="alert('Hello again');" />
+ 		<br /> 
+ 		
+ 		<h1 id="puppy" onclick="getValue()">Poodle</h1>
+ 	    <br />
+<input type="button" value="Open a small window" onclick="openWin()" />
+<input type="button" value="Close the small window" onclick="closeWin()" />
+</body>
+</html>

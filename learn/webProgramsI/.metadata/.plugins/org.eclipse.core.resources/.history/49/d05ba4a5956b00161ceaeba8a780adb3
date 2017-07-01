@@ -1,0 +1,53 @@
+<!DOCTYPE hmtl>
+
+
+<html>
+<head>
+
+</head>
+
+	<!-- Resume of Samuel T. Smithers
+			Author: Matthew Dowell
+			Date: 08/25/2016	
+	-->
+	
+	<title>Resume of Samuel T. Smithers</title>
+	<!--  Embedded Style 
+		<style type="text/css">
+		body {text-align: center; width; 600px; border: 5px outset red}
+		</style>
+	-->
+	<link href="SamStyles.css" rel="stylesheet" type="text/css" />
+
+<body>
+		<header>
+				<h1>Samuel T. Smithers</h1>
+		</header>
+		<section>
+				<h2>Objective</h2>
+				<p>Looking for an exciting career in nuclear physics.<br />
+				I had a course in physics, and found it very exciting.<br />
+				Just the thought of peering into the <span>eerie blue light</span><br />
+				...well, you get the idea.</p>
+		</section>
+		<section>
+				<h2>Education</h2>
+				<p><b>Collin County Community College.</b><br />
+				In addition to my physics course, I took a course in history called, <br />
+				&quot;History of Strange Religions of the Western World.&quot;<br />
+				Very exciting, but the professor didn't grade me fairly, so I got a C.</p>
+				
+				<p><b>University of North Texas.</b><br />
+				Didn't exactly pass any of my classes, but I learned a lot. </p>
+		</section>
+		<section>
+				<h3>Employment History</h3>
+		
+		</section>
+		<footer>
+				<h5>9705 Wade ... Frisco TX 75035 ... 972-555-1378</h5>
+		</footer>
+		
+
+</body>
+</html>
