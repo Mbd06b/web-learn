@@ -1,9 +1,0 @@
-/*		SamStyles.css contains all styles for sam.htm
-		Name: 	Matthew Dowell
-		Date: 	08/25/2016
-*/
-
-
-body	{text-align: center; width: 600px; border:5px outset red}
-
-header h1	{color: #990000}

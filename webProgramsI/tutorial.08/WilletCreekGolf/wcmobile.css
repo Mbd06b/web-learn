@@ -1,0 +1,161 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 2
+
+   Mobile Styles
+   Author: Matthew Dowell
+   Date:   11/02/2016
+
+   Filename:         wcmobile.css
+   Supporting Files: 
+
+*/
+
+
+/* Styles to be used with mobile devices */
+
+/* Hide page elements that will not be displayed */
+
+header nav, header img, section#main, aside, footer {
+   display: none;
+}
+
+/* Body styles */
+
+body{
+	background: rgb(107, 140, 80); 
+}
+
+/*
+10.	 Set the background color to the value (107, 140, 80).
+*/
+
+/* Header styles */
+
+header {
+  background: rgb(151, 201, 151) url(willet.jpg) left center no-repeat;
+
+ 	  -o-background-size: contain;
+    -moz-background-size: contain;
+ -webkit-background-size: contain;
+   		 background-size: contain;
+
+   width: 100%;
+   height: 50px;
+
+}
+
+/*
+11.	 For the header element, create a style rule to: a) change the background color to
+the value (151, 201, 151) with the image file willet.jpg placed in the left-center of
+the background with no tiling; b) set the size of the background image to contain ;
+c) set the width to 100%; and d) set the height to 50 pixels.
+*/
+
+
+/* hole tiles Style */ 
+
+ #holes{
+	width: 100%;
+}
+/*
+12.	 The navigation list containing links to each of the 18 holes in the Grand Course has
+the id holes. Create a style rule to set the width of this navigation list to 100%.
+*/
+
+ #holes h1{
+	font-size: 25px;
+	color: white; 
+	margin: 15px;
+	text-align: center; 
+}
+
+
+/*
+13.	 For h1 elements within the holes navigation list, create a style rule to: a) set the font
+size to 25 pixels; b) set the font color to white; c) set the margin to 15 pixels; and
+d) center the text of the heading.
+*/
+
+#holes li{
+	
+			display: block; 
+		 background: url(arrow.png) center right no-repeat;
+	
+		      
+				width: 60%;
+			   height: 50px; 
+		 
+		   margin: 5px auto; 
+		 
+			    border: 1px solid white;
+	-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+		 border-radius: 10px; 
+		  
+	   -moz-box-shadow: inset rgba(51, 51, 51, 0.5) 10px -5px 20px;
+	-webkit-box-shadow: inset rgba(51, 51, 51, 0.5) 10px -5px 20px;
+			box-shadow: inset rgba(51, 51, 51, 0.5) 10px -5px 20px;
+		 	 
+}
+
+/*
+14.	 For list items in the holes navigation list, create a style rule to: a) display the items as
+blocks; b) add the background image file arrow.png to the right-center of the back-
+ground with no tiling; c) set the width to 60% and the height to 50 pixels; d) add
+top and bottom margins of 5 pixels, and add left and right margins of auto ; e) add a
+1-pixel-wide solid white border to each list item and create rounded borders with a
+radius of 10 pixels; and f) add inset box shadows to the list items with a color value
+of (51, 51, 51) and an opacity of 50% (the inset shadows should appear in the lower-
+left corner of each list item with a horizontal offset of 10 pixels, a vertical offset of
+5 pixels, and a blur of 20 pixels).
+*/
+
+#holes li a{
+	   display: block; 
+		 width: 100%;
+	line-height: 50px;
+		 color: white;
+	text-align: center;
+}
+
+/*
+15.	 For hypertext links within each list item, add a style rule to: a) display the link as
+blocks; b) set the width to 100% and the line height to 50 pixels; c) set the font color
+to white; and d) horizontally center the text of the link.
+*/
+
+#holes li:nth-of-type(odd){
+		background-color: rgb(187, 105, 123); 
+}
+
+#holes li:nth-of-type(even){
+		background-color: rgb(150, 80, 100); 
+}
+/*
+16.	 For odd-numbered list items, set the background color to the value (187, 105, 123).
+(Hint: Use the pseudo-class nth-of-type(odd) .) For even-numbered list items, set
+the background color to the value (150, 80, 100).
+*/
+
+/* Styles under landscape orientation */
+
+@media screen and (orientation: landscape){
+
+ nav#holes li{
+		width: 30%;
+		float: left;
+		margin: 5px;
+		
+	}
+
+/*
+17.	 The preceding styles will be applied by default to the page in portrait orientation.
+Create an @media rule for the page in landscape orientation.
+
+18.	 Add the following style rule for list items displayed in landscape orientation: a) set
+the width to 30%; b) float the list items on the left; and c) set the margins to 5 pixels.
+19.	 Save your changes to the style sheet, and then return to the willet.htm file in your
+text editor.
+*/
